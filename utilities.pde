@@ -46,9 +46,9 @@ void scribeFooter(String S, int i) {fill(0); text(S,10,height-10-i*20); noFill()
 void scribeAtMouse(String S) {fill(0); text(S,mouseX,mouseY); noFill();} // writes on screen near mouse
 void scribeMouseCoordinates() {fill(black); text("("+mouseX+","+mouseY+")",mouseX+7,mouseY+25); noFill();}
 void displayHeader() { // Displays title and authors face on screen
-    scribeHeader(title,0); scribeHeaderRight(name); 
-    image(KimPix, width-KimPix.width/2,25,KimPix.width/2,KimPix.height/2); 
-    image(MartinPix, width-KimPix.width-MartinPix.width/2,25,MartinPix.width/2,MartinPix.height/2); 
+    //scribeHeader(title,0); scribeHeaderRight(name); 
+    //image(KimPix, width-KimPix.width/2,25,KimPix.width/2,KimPix.height/2); 
+    //image(MartinPix, width-KimPix.width-MartinPix.width/2,25,MartinPix.width/2,MartinPix.height/2); 
     }
 void displayFooter() { // Displays help text at the bottom
     scribeFooter(guide,1); 
